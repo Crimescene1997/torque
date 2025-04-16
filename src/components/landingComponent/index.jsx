@@ -27,6 +27,7 @@ export default function LandingComponent() {
                 <img src={}/>
                 <img src={}/>
                 <img src={}/> */}
+                {/* ojouyvon[io[oin]] */}
             </div>
            </div>
            <div className={styles.Section3}>           
