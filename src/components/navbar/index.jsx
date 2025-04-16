@@ -18,7 +18,7 @@ export default function NavbarComponent () {
             <Link to="/contact" className={styles.Links} >Contact</Link>
             <Link to="/blog"  className={styles.Links} >Blog</Link>
             <Link to="/support"  className={styles.Links} >Support & FAQ</Link>
-            <Link Link to="/events"  className={styles.EventLink} > Book a Tour</Link>
+            <Link to="/events"  className={styles.EventLink} > Book a Tour</Link>
          
             </div>
         </div>

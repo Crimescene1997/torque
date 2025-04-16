@@ -17,4 +17,87 @@
     background-color: blue;
 }
 
+.Section1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    }
+
+.Section1Left {
+    width:50%;
+    height:100%;
+    background-color: aqua;
+}
+
+.Section1Right{
+    width: 50%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+.Section2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Section2Top {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+}
+
+.Section2TopHeader {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.Section2TopSubHeader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: darksalmon;
+
+}
+
+.Section2Bottom {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: purple
+}
+
+.Section2Image1Container{
+width:20%;
+height:200px
+
+}
+
+.Section2Image1{
+    width: 100%;
+    height: 100%;
+}
+
+.Section2Image2Container{
+    width:20%;
+    height:200px
+}
+
+.Section2Image2{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.Section2Image3{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
 
