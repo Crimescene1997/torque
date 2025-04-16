@@ -1,199 +1,467 @@
 .MainContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color:white;
-    display: flex;
-    flex-direction: column;
-    color: black;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
 }
 
 .HeroContainer {
-    width: 100%;
-    height: 600px;
-    background-color: blue;
+  width: 100%;
+  height: 600px;
+  background-color: blue;
 }
 
 .Section1 {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    }
-
-.Section1Left {
-    width:50%;
-    height:100%;
-    background-color: aqua;
+  width: 100%;
+  height: 600px;
+  display: flex;
 }
 
-.Section1Right{
-    width: 50%;
-    height: 100%;
-    background-color: chocolate;
+.Section1Left {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.Section1Right {
+  width: 50%;
+  height: 100%;
+  background-color: chocolate;
 }
 
 .Section2 {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Section2Top {
-    width: 100%;
-    height: 100px;
-    flex-direction: column;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
 }
 
 .Section2TopHeader {
-    width: 100%;
-    height: 100px;
-    flex-direction: column;
-    background-color: blueviolet;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  background-color: blueviolet;
 }
 
 .Section2TopSubHeader {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    background-color: darksalmon;
-
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: darksalmon;
 }
 
 .Section2Bottom {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    background-color: purple
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: purple;
 }
 
-.Section2Image1Container{
-width:20%;
-height:200px
-
+.Section2Image1Container {
+  width: 20%;
+  height: 200px;
 }
 
-.Section2Image1{
-    width: 100%;
-    height: 100%;
+.Section2Image1 {
+  width: 100%;
+  height: 100%;
 }
 
-.Section2Image2Container{
-    width:20%;
-    height:200px
+.Section2Image2Container {
+  width: 20%;
+  height: 200px;
 }
 
-.Section2Image2{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+.Section2Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
-.Section2Image3{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+.Section2Image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .Section3 {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    background-color: maroon;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: maroon;
 }
 
 .Section3Header {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    color: white;
-
+  width: 100%;
+  height: 20%;
+  display: flex;
+  color: white;
 }
 
 .Section3Body {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    color: white;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  color: white;
 }
 
 .Section4 {
-        width: 100%;
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        background-color: pink
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
 }
 
 .Section4Header {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    color: black;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  color: black;
 }
 .Section4Body {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    color: black;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  color: black;
 }
 
 .Section5 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section5Top {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: red;
+}
+
+.Section5TopLeft {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.Section5Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.Section5TopRight {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+}
+
+.Section5Bottom {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.Section5BottomLeft {
+  width: 50%;
+  height: 100%;
+  background-color: purple;
+}
+.Section5TopRight {
+  width: 50%;
+  height: 100%;
+  background-color: orange;
+}
+.Section5Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.Section6 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section6Header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section6Body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.Section6Button {
+  text-decoration: none;
+  padding: 1rem 4rem;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: #02f9bb;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+}
+.Section7 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section7Top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+.Section7TopHeader {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.Section7TopBody {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: brown;
+}
+
+.Section7Bottom {
+  width: 100%;
+  height: 8050%;
+  display: flex;
+}
+
+.Section7BottomLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section7Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Section7BottomRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7Image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Section7Image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Section8 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section8Header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:red;
+  color: black;
+}
+
+.Section8Image {
     width: 100%;
-    height: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.Section9 {
+    width: 100%;
+    height: 1000px;
     display: flex;
     flex-direction: column;
 }
 
-.Section5Top {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        background-color: red
-}
-
-.Section5TopLeft {
-    width:50%;
-    height:100%;
-    background-color: aqua;
-}
-
-.Section5Image1{
+.Section9Header{
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: purple;
+    color: black;
 }
 
-.Section5TopRight{
-    width:50%;
-    height:100%;
-    background-color: green
-}
-
-
-
-.Section5Bottom{
+.Section9Top {
     width: 100%;
-    height: 300px;
+    height: 45%;
     display: flex;
 }
-.Section5BottomLeft {
-    width:50%;
-    height:100%;
-    background-color: purple
+
+.Section9TopLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
 }
-.Section5TopRight{
-    width:50%;
-    height:100%;
-    background-color: orange
-}
-.Section5Image2{
+
+.Section9Video1{
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
+}
+
+.Section9TopRight {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section9Video2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Section9Bottom {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    background-color: red;
+}
+
+.Section9Video3{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Section10 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.Section10Left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section10LeftImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Section10Right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section10RightHeader {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: black;
+    flex-direction: column;
+}
+
+.Section10RightBody {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
 }
