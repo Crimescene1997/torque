@@ -1,4 +1,4 @@
-.MainContainer {
+.FooterContainer {
     position: absolute;
     height: 40%;
     width: 100%;
@@ -7,3 +7,40 @@
     left: 0;
     display: flex;
 }
+
+.NameContainer {
+    width: 33%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.LogoContainer {
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .Logo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: flex;
+  }
+
+  .NameText {
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+
+  }
+
+  .EventContainer {
+
+  }

@@ -6,8 +6,11 @@ export default function NavbarComponent () {
     return(
         <>
         <div className={styles.MainContainer}>
-            <div className={styles.ImageContainer}>
+            <div className={styles.LogoContainer}>
+            <Link to="/">
             <img className={styles.Logo} src={LogoImage}/>
+            </Link>
+               
             </div>
             <div className={styles.LinkContainer}>
             <Link to="/about" className={styles.Links} >About</Link>
@@ -16,7 +19,7 @@ export default function NavbarComponent () {
             <Link to="/blog"  className={styles.Links} >Blog</Link>
             <Link to="/support"  className={styles.Links} >Support & FAQ</Link>
             <Link Link to="/events"  className={styles.EventLink} > Book a Tour</Link>
-            
+         
             </div>
         </div>
         </>

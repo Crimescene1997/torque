@@ -7,6 +7,7 @@ import BlogPage from "./pages/blogPage/"
 import SupportPage from "./pages/supportPage/"
 import EventsPage from "./pages/eventsPage/"
 import GalleryPage from "./pages/galleryPage/"
+import FooterComponent from "./components/footer"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/support" element={<SupportPage/>}/>
         <Route path="/events" element={<EventsPage/>}/>
       </Routes>
+      <FooterComponent/>
     </Router>
  
  </>
