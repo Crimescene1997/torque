@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import LogoImage from "../../assetsLandingPage/companylogo.png";
+import LogoImage from "../../assets/assetsLandingPage/companylogo.png";
 import { Link } from "react-router-dom";
 
 export default function NavbarComponent () {

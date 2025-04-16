@@ -27,7 +27,7 @@ function App() {
         <Route path="/support" element={<SupportPage/>}/>
         <Route path="/events" element={<EventsPage/>}/>
       </Routes>
-      <FooterComponent/>
+      {/* <FooterComponent/> */}
     </Router>
  
  </>
