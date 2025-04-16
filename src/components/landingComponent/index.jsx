@@ -4,6 +4,8 @@ import ExpertImage from "../../assets/assetsLandingPage/ExpertGuides.webp"
 import CuratedImage from "../../assets/assetsLandingPage/CuratedRoutes.webp"
 import SafetyImage from "../../assets/assetsLandingPage/SafetyFirst.webp"
 import ThrillsImage from "../../assets/assetsLandingPage/Thrills.webp"
+import ClarensImage from "../../assets/assetsLandingPage/Clarens.webp"
+import TankwaImage from "../../assets/assetsLandingPage/TankwaOutreach.webp"
 
 export default function LandingComponent() {
     return (
@@ -44,10 +46,38 @@ export default function LandingComponent() {
                 </div>
             </div>
             <div className={styles.Section3}>
+                <div className={styles.Section3Header}>
+                    Upcoming Events
+                </div>
+                <div className={styles.Section3Body}>
+                    Being with your squad and loved ones, unwinding amidst nature’s wonderland, and cruising on bikes – it’s all about living your best life!
+                </div>
             </div>
             <div className={styles.Section4}>
+                <div className={styles.Section4Header}>
+                    PAST EVENTS
+                </div>
+                <div className={styles.Section4Body}>
+                    “Ride into TorqAdventure’s Past Events Showcase – relive memorable rides, stunning landscapes, and camaraderie, fueling the spirit of our adventure.”
+                </div>
             </div>
             <div className={styles.Section5}>
+                <div className={styles.Section5Top}>
+                    <div className={styles.Section5TopLeft}>
+                    <img className={styles.Section5Image1} src={ClarensImage} />
+                    </div>
+                    <div className={styles.Section5TopRight}>
+                        {/* insert the paragraph with link to Clarens Gallery*/}
+                    </div>
+                </div>
+                <div className={styles.Section5Bottom}>
+                    <div className={styles.Section5BottomLeft}>
+                         {/* insert the paragraph with link to Tankwa gallery*/}
+                    </div>
+                    <div className={styles.Section5BottomRight}>
+                    <img className={styles.Section5Image2} src={TankwaImage} />
+                    </div>
+                </div>
             </div>
             <div className={styles.Section6}>
             </div>
