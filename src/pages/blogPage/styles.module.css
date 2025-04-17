@@ -1,0 +1,44 @@
+.BlogPageContainer{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BlogPageCard{
+    width: 60%;
+    height: 90%;
+    background-color: #4599FE;
+}
+
+.BlogPageCardImage{
+    width: 100%;
+    height: 50%;
+ 
+    /* background-color: #4599FE; */
+}
+
+.Image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.BlogPageCardContent{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+

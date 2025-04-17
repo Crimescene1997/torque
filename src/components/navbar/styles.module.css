@@ -11,8 +11,12 @@
 }
 
 .LogoContainer {
-  width: 10%;
+  margin-left: 20px;
+  width: 5%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Logo {
@@ -33,15 +37,17 @@
 .LinkContainer {
   text-decoration: none;
 }
+
 .EventLink {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 10px;  
   color: white;
   border-radius: 4px;
   font-weight: 500;
-  background-color: #02f9bb;
-  font-size: x-large;
+  background-color: #4599FE;
+  font-size: 16px;
 }
+
 .Links {
   text-decoration: none;
   justify-content: center;
@@ -49,5 +55,56 @@
   padding: 0.5rem 1rem;
   color: white;
   font-weight: 500;
-  font-size: x-large;
+  font-size: 16px;
+}
+
+.HamburgerIcon {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.HamburgerIcon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .HamburgerIcon {
+    margin-top: 6px;
+    display: block;
+    margin-right: 20px;
+  }
+
+
+
+  .LinkContainer {
+    position: fixed;
+    right: -120%;
+    top: 10%;
+    height: 90vh;
+    width: 100%;
+    background-color: #2d4046;
+    flex-direction: column;
+    transition: 0.3s;
+    /* padding: 20px; */
+  }
+
+  .LinkContainer.active {
+    right: 0;
+  }
+
+  .EventLink{
+    width: 80%;
+    text-align: center;
+  }
+
+  .Links{ 
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
 }

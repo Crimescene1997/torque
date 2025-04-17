@@ -1,104 +1,201 @@
 .FooterContainer {
-  position: absolute;
-  height: 400px;
-  width: 100%;
   background-color: #2d4046;
-  bottom: 0;
-  left: 0;
-  display: flex;
+    color: white;
+    padding: 1rem 1rem 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.LeftContent {
-  width: 33%;
-  height: 100%;
+.FooterContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.FooterSection {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+}
+
+.FooterSection h3 {
+  color: #02f9bb;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.FooterSection p {
+  line-height: 1.6;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.SocialLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.SocialLinks a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.SocialLinks a:hover {
+  color: #02f9bb;
+}
+
+.FooterSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.FooterSection ul li {
+  margin-bottom: 0.8rem;
+}
+
+.FooterSection ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.FooterSection ul li a:hover {
+  color: #02f9bb;
+}
+
+.ContactInfo li {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
+  gap: 0.5rem;
+  color: #e0e0e0;
+  font-size: 0.9rem;
 }
 
-.LogoContainer {
-  width: 50%;
+.Icon {
+  color: #02f9bb;
+  font-size: 1.2rem;
 }
 
-.LeftTextContainer {
-  margin-left: 20px;
-  width: 100%;
-  margin-top: 10px;
-  line-height: 1.5;
-}
-
-.Logo {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.MiddleContent {
-  width: 33%;
-  height: 100%;
-  /* background-color: blue; */
-  display: flex;
-  color: white;
-}
-
-.MiddleLeftContent {
-  width: 60%;
-  height: 100%;
-  /* background-color: red; */
-  display: flex;
-  padding-top: 45px;
-  flex-direction: column;
-  /* justify-content: center; */
-}
-
-.MiddleImage {
-  width: 100%;
-  height: 50%;
-  object-fit: fill;
-}
-
-.MiddleRightContent {
-  width: 40%;
-  height: 100%;
-  margin-left: 20px;
-  /* background-color: yellow; */
+.NewsletterForm {
   display: flex;
   flex-direction: column;
-  padding-top: 40px
-  /* align-items: center; */
-  /* justify-content: center; */
+  gap: 0.5rem;
 }
 
-.MiddleRightContentText {
+.NewsletterForm input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3d5056;
   color: white;
+  font-size: 0.9rem;
 }
 
-.RightContent {
-  width: 33%;
-  height: 100%;
-  /* background-color: green; */
-  display: flex;
-  color: white;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.NewsletterForm input::placeholder {
+  color: #e0e0e0;
 }
 
-.RightTextContainer {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.NewsletterForm button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #02f9bb;
+  color: #2d4046;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
 }
 
-.RightButton {
-  width: 30%;
-  height: 10%;
-  border-radius: 10px;
-  color: white;
-  background-color: red;
+.NewsletterForm button:hover {
+  background-color: #00d9a3;
+}
+
+.FooterBottom {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid #3d5056;
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .FooterContent {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .FooterContainer {
+    padding: 3rem 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .FooterContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .FooterContainer {
+    padding: 2rem 1rem 1rem;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .FooterSection {
+    text-align: center;
+  }
+  
+  .SocialLinks {
+    justify-content: center;
+  }
+  
+  .ContactInfo li {
+    justify-content: center;
+  }
+
+  .NewsletterForm {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .FooterSection h3 {
+    font-size: 1.1rem;
+  }
+
+  .FooterSection p, 
+  .FooterSection ul li a,
+  .ContactInfo li,
+  .NewsletterForm input,
+  .NewsletterForm button {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .FooterContainer {
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .FooterContent {
+    gap: 1.5rem;
+  }
+
+  .SocialLinks a {
+    font-size: 1.3rem;
+  }
+
+  .Icon {
+    font-size: 1.1rem;
+  }
 }
