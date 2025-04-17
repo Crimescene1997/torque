@@ -238,7 +238,7 @@
 
 .Section7Top {
   width: 100%;
-  height: 50%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   background-color: red;
@@ -266,7 +266,7 @@
 
 .Section7Bottom {
   width: 100%;
-  height: 8050%;
+  height: 300px;
   display: flex;
 }
 
@@ -330,138 +330,227 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color:red;
+  background-color: red;
   color: black;
 }
 
 .Section8Image {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
 }
 
 .Section9 {
-    width: 100%;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
 }
 
-.Section9Header{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: purple;
-    color: black;
+.Section9Header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+  color: black;
 }
 
 .Section9Top {
-    width: 100%;
-    height: 45%;
-    display: flex;
+  width: 100%;
+  height: 45%;
+  display: flex;
 }
 
 .Section9TopLeft {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
 }
 
-.Section9Video1{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.Section9Video1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .Section9TopRight {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
 }
 
-.Section9Video2{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.Section9Video2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .Section9Bottom {
-    width: 100%;
-    height: 45%;
-    display: flex;
-    background-color: red;
+  width: 100%;
+  height: 45%;
+  display: flex;
+  background-color: red;
 }
 
-.Section9Video3{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.Section9Video3 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .Section10 {
-    width: 100%;
-    height: 600px;
-    display: flex;
+  width: 100%;
+  height: 600px;
+  display: flex;
 }
 
 .Section10Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
 }
 
 .Section10LeftImage {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .Section10Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Section10RightHeader {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: purple;
-    color: black;
-    flex-direction: column;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: black;
+  flex-direction: column;
 }
 
 .Section10RightBody {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.Section11 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.Section11Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section11LeftHeader {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.Section11LeftBody {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: brown;
+}
+
+.Section11LeftLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.SupportLink {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: #4599fe;
+  font-size: 16px;
+}
+
+.ContactLink {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: #4599fe;
+  font-size: 16px;
+}
+
+.Section11Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section11RightHeader {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: brown;
+}
+
+.Section11RightImage {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
 }

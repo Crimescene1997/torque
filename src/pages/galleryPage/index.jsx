@@ -1,7 +1,9 @@
-export default function GalleryPage () {
+import GalleryComponent from "../../components/galleryComponent";
+
+export default function GalleryPage() {
     return (
         <>
-
+            <GalleryComponent />
         </>
     )
 }

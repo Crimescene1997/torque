@@ -16,6 +16,7 @@ import Video1 from "../../assets/assetsLandingPage/Video1.mp4"
 import Video2 from "../../assets/assetsLandingPage/Video2.mp4"
 import Video3 from "../../assets/assetsLandingPage/Video3.mp4"
 import FamilyImage from "../../assets/assetsLandingPage/Family.jpg"
+import WildernessImage from "../../assets/assetsLandingPage/wilderness.jpg"
 
 export default function LandingComponent() {
     return (
@@ -153,12 +154,11 @@ export default function LandingComponent() {
                         <source src={Video3} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-
                 </div>
             </div>
             <div className={styles.Section10}>
                 <div className={styles.Section10Left}>
-                <img className={styles.Section10LeftImage} src={FamilyImage} />
+                    <img className={styles.Section10LeftImage} src={FamilyImage} />
                 </div>
                 <div className={styles.Section10Right}>
                     <div className={styles.Section10RightHeader}>
@@ -175,9 +175,29 @@ export default function LandingComponent() {
 
                     </div>
                 </div>
-
             </div>
-            <div className={styles.Section1}></div>
+            <div className={styles.Section11}>
+                <div className={styles.Section11Left}>
+                    <div className={styles.Section11LeftHeader}>
+                        Unforgettable wildlife encounter
+                    </div>
+                    <div className={styles.Section11LeftBody}>Get ready to unplug, take a deep breath, and let Mother Nature dazzle you with her untamed beauty!
+                        Our adventures are like a wild symphony, where every note is an exploration and the rhythms of nature become your compass.
+                        TorqAdventures welcomes you to join us on an extraordinary journey that’ll leave the ordinary behind!
+                    </div>
+                    <div className={styles.Section11LeftLinks}>
+                        <Link to="/support" className={styles.SupportLink} onClick={() => setIsOpen(false)}>Any Questions?</Link>
+                        <Link to="/contact" className={styles.ContactLink} onClick={() => setIsOpen(false)}>Contact Us</Link>
+                    </div>
+                </div>
+                <div className={styles.Section11Right}>
+                    <div className={styles.Section11RightHeader}>
+                    Wilderness
+                    Secrets of travel through the lens of wildlife.
+                    </div>
+                    <img className={styles.Section11RightImage} src={WildernessImage} />               
+                </div>
+            </div>
         </div >
     )
 }   

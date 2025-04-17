@@ -6,7 +6,7 @@ export default function LandingPage () {
         <>
     
         <LandingComponent/>
-        <FooterComponent/>
+        {/*footer*/}
         </>
     )
 }
