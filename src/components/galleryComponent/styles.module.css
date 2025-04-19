@@ -1,503 +1,597 @@
 .MainContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    color: black;
-  }
-
-  .Section1 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section1Header {
-    width: 100;
-    height: 50%;
-    background-color: aqua;
-    color: black;
-  }
-
-  .Section1Body {
-    width: 100;
-    height: 50%;
-    background-color: brown;
-  }
-
-  .Section2 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section2Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section2LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section2LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section2Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section2Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section2RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section2RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section2Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section3 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section3Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section3LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section3LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section3Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section3Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section3RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section3RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section3Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section4 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section4Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section4LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section4LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section4Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section4Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section4RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section4RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section4Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section5 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section5Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section5LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section5LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section5Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section5Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section5RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section5RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section5Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section6 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section6Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section6LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section6LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section6Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section6Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section6RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section6RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section6Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section7 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section7Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section7LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section7LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section7Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section7Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section7RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section7RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section7Image2 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section8 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section8Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section8LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section8LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section8Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section8Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section8RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section8RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
-
-  .Section8Image2{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Section9 {
-    width: 100%;
-    height: 11000px;
-    display: flex;
-  }
-
-  .Section9Left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section9LeftTop {
-    width: 100;
-    height: 50%;
-    background-color:red;
-  }
-
-  .Section9LeftBottom {
-    width: 100;
-    height: 50%;
-    background-color:blue;
-  }
-
-  .Section9Image1 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Section9Right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Section9RightTop {
-    width: 100;
-    height: 50%;
-    background-color:purple;
-  }
-
-  .Section9RightBottom {
-    width: 100;
-    height: 50%;
-    background-color:aqua
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.Section1 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section1Header {
+  width: 100;
+  height: 50%;
+  background-color: aqua;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section1Body {
+  width: 100;
+  height: 50%;
+  background-color: brown;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section2 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section2Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section2LeftTop {
+  width: 100;
+  height: 10%;
+  background-color: white;
+  color: #031e41;
+  font-size: x-large;
+}
+
+.Section2LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section2Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section2Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section2RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section2RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section2Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section3 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section3Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section3LeftTop {
+  width: 100;
+  height: 10%;
+  background-color: white;
+  color: #031e41;
+  font-size: x-large;
+}
+
+.Section3LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section3Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section3Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section3RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section3RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section3Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section4 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section4Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section4LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  font-size: x-large;
+}
+
+.Section4LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section4Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section4Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section4RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section4RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section4Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section5 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section5Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section5LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section5LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section5Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section5Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section5RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section5RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section5Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section6 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section6Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section6LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section6LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section6Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section6Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section6RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section6RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section6Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section7Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section7LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section7Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section7RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section7RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section7Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section8 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section8Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section8LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section8LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section8Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section8Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section8RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section8RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section8Image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section9 {
+  width: 100%;
+  height: 11000px;
+  display: flex;
+}
+
+.Section9Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section9LeftTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section9LeftBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
+
+.Section9Image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section9Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section9RightTop {
+  width: 100;
+  height: 50%;
+  background-color: white;
+  color: #031e41;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.Section9RightBottom {
+  width: 100;
+  height: 50%;
+  background-color: white;
+}
