@@ -1,12 +1,12 @@
 .FooterContainer {
   background-color: #2d4046;
-    color: white;
-    padding: 1rem 1rem 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+  color: white;
+  padding: 1rem 1rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .FooterContent {
@@ -134,7 +134,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
-  
+
   .FooterContainer {
     padding: 3rem 1.5rem 1rem;
   }
@@ -145,21 +145,21 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .FooterContainer {
     padding: 2rem 1rem 1rem;
     position: relative;
     margin-top: 2rem;
   }
-  
+
   .FooterSection {
     text-align: center;
   }
-  
+
   .SocialLinks {
     justify-content: center;
   }
-  
+
   .ContactInfo li {
     justify-content: center;
   }
@@ -173,7 +173,7 @@
     font-size: 1.1rem;
   }
 
-  .FooterSection p, 
+  .FooterSection p,
   .FooterSection ul li a,
   .ContactInfo li,
   .NewsletterForm input,

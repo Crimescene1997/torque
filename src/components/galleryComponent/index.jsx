@@ -32,7 +32,7 @@ export default function GalleryComponent() {
                     <div className={styles.Section2Left}>
                         <div className={styles.Section2LeftTop}>
                             <Link to="/MountainKindom">
-                                Mountain Kingdom Sani Tour -May 2024
+                                Mountain Kingdom Sani Tour
                             </Link>
                         </div>
                         <div className={styles.Section2LeftBottom}>
